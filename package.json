@@ -1,12 +1,12 @@
 {
   "name": "blog-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "husain korasawala",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p .",
     "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon index.ts",
     "lint": "tslint -c tslint.json -p tsconfig.json"
   },
   "license": "ISC",
